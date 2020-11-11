@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="94.0" layoutY="26.0" prefHeight="60.0" prefWidth="300.0" style="-fx-background-color: #46423d;" text="Конвертер" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Text fx:id="gramsText" layoutX="35.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " AnchorPane.leftAnchor="35.0" />
+      <Text layoutX="20.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Значение в киллограмах:" AnchorPane.leftAnchor="35.0" />
+      <Text layoutX="25.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Значение в граммах:" AnchorPane.leftAnchor="35.0" />
+      <ChoiceBox fx:id="choiseboxId" layoutX="25.0" layoutY="119.0" prefWidth="150.0" AnchorPane.leftAnchor="35.0" />
+      <Text fx:id="tonnsText" layoutX="35.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text fx:id="kiloText" layoutX="35.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <Text layoutX="35.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Значение в тоннах:" />
+      <TextField fx:id="textField" layoutX="36.0" layoutY="77.0" onAction="#initialize" />
+   </children>
+</AnchorPane>
